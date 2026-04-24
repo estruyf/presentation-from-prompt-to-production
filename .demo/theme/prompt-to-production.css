@@ -525,6 +525,11 @@
   user-select: none;
 }
 
+/* content-gray layout styles */
+.slide.prompt-to-production .content-gray {
+  background: var(--p2p-surface);
+}
+
 /* ── Center layout styles ── */
 .slide.prompt-to-production .center-slide {
   background: var(--p2p-surface);
