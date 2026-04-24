@@ -1,0 +1,12 @@
+<div class="title-slide">
+  <div class="corner-gradient"></div>
+  {{#if metadata.topLabel}}
+  <div class="top-label">{{metadata.topLabel}}</div>
+  {{/if}}
+  <h1>{{#if metadata.title}}{{metadata.title}}{{/if}}</h1>
+  <h2>{{#if metadata.subtitle}}{{metadata.subtitle}}{{/if}}</h2>
+  <div class="author-line">
+    {{#if metadata.author}}{{metadata.author}}{{/if}} {{#if metadata.event}}
+    &nbsp;·&nbsp; {{metadata.event}}{{/if}}
+  </div>
+</div>
