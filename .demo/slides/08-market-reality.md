@@ -33,4 +33,4 @@ transition: slideLeft
   </div>
 </div>
 
-<p class="muted small mono" style="margin-top: 0.25rem;">This category went from zero to mainstream in under 12 months.</p>
+<p class="muted small mono" style="margin-top: 0.25rem;">This way of building apps went from zero to mainstream in under 12 months.</p>

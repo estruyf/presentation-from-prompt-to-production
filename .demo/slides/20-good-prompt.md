@@ -11,7 +11,7 @@ transition: slideLeft
 <div class="divider" style="background: var(--p2p-green);"></div>
 
 <div class="codeblock" style="border-color: var(--p2p-green); flex: none; margin-bottom: 0.5rem;">
-"Build a workout logger for intermediate weightlifters who already track sets, reps, and weight on paper. Data model: a Workout has a date and many Exercises. An Exercise has a name, and many Sets with reps and weight (kg). One screen to add a workout, one to view history as a list. No social features, no badges, no charts. Web only, desktop-first."
+"Build a ride tracker for cyclists who currently log rides in a notebook. Data model: a Ride has a date, distance (km), duration (minutes), and route name. One screen to add a ride, one to view history as a list. No social features, no badges, no charts. Web only, desktop-first."
 </div>
 
 <div class="grid-4" style="flex: none;">

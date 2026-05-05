@@ -10,7 +10,7 @@ transition: slideLeft
 
 <div class="divider"></div>
 
-<div class="list flex-1" style="justify-content: center;">
+<div class="list flex-1 mt-4">
   <div class="list-item"><span class="num">01</span><span>Does this already exist? Check Notion, Airtable, Linear — before you generate a single line.</span></div>
   <div class="list-item"><span class="num">02</span><span>Who is the actual user of this app?</span></div>
   <div class="list-item"><span class="num">03</span><span>What is the one thing they need to do?</span></div>

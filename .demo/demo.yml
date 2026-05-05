@@ -1,7 +1,13 @@
-title: 'From Prompt to Production'
+title: From Prompt to Production
 description: Techorama May 2025 - Elio Struyf
 version: 3
+engageTime:
+  sessionId: 54d62i
 scenes:
+  - title: Poll
+    moves:
+      - action: openSlide
+        path: .demo/slides/00-poll.md
   - title: Title
     moves:
       - action: openSlide
@@ -10,10 +16,14 @@ scenes:
     moves:
       - action: openSlide
         path: .demo/slides/02-brief.md
-  - title: Opening
+  - title: Question 1
     moves:
-      - action: openSlide
-        path: .demo/slides/03-opening.md
+      - action: showEngageTimePoll
+        pollId: m0ytpe
+  - title: Question 2
+    moves:
+      - action: showEngageTimePoll
+        pollId: m23vvk
   - title: Context
     moves:
       - action: openSlide
@@ -46,6 +56,14 @@ scenes:
     moves:
       - action: openSlide
         path: .demo/slides/11-think-first.md
+  - title: Do not just clone
+    moves:
+      - action: openSlide
+        path: .demo/slides/11.1-replit.md
+  - title: Think Before Prompt
+    moves:
+      - action: openSlide
+        path: .demo/slides/18-think-before-prompt.md
   - title: CLI vs Platforms
     moves:
       - action: openSlide
@@ -70,10 +88,6 @@ scenes:
     moves:
       - action: openSlide
         path: .demo/slides/17-act-2.md
-  - title: Think Before Prompt
-    moves:
-      - action: openSlide
-        path: .demo/slides/18-think-before-prompt.md
   - title: Bad Prompt
     moves:
       - action: openSlide
@@ -86,19 +100,19 @@ scenes:
     moves:
       - action: openSlide
         path: .demo/slides/21-the-skill.md
-  - title: 'Vote 1 — App Type'
+  - title: Vote 1 — App Type
     moves:
       - action: openSlide
         path: .demo/slides/22-vote-1-app-type.md
-  - title: 'Vote 2 — Who'
+  - title: Vote 2 — Who
     moves:
       - action: openSlide
         path: .demo/slides/23-vote-2-who.md
-  - title: 'Vote 3 — Feature'
+  - title: Vote 3 — Feature
     moves:
       - action: openSlide
         path: .demo/slides/24-vote-3-feature.md
-  - title: 'Vote 4 — Twist'
+  - title: Vote 4 — Twist
     moves:
       - action: openSlide
         path: .demo/slides/25-vote-4-twist.md

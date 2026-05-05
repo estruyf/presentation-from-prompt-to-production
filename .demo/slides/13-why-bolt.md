@@ -10,7 +10,7 @@ transition: slideLeft
 
 <div class="divider"></div>
 
-<div class="flex-col flex-1 gap-md" style="justify-content: center;">
+<div class="flex-col flex-1 gap-md mt-16" style="">
   <div class="blockquote">
     When I emailed them asking for access for this session, they actually replied.<br>
     <span class="muted small">That's not nothing in this industry.</span>
