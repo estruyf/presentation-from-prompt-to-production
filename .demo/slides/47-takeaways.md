@@ -10,7 +10,7 @@ transition: slideLeft
 
 <div class="divider"></div>
 
-<div class="list flex-1" style="justify-content: center;">
+<div class="list flex-1 mt-4">
   <div class="list-item small"><div class="dot"></div><span><strong>Treat it like a fast junior dev</strong> — review every file it touches</span></div>
   <div class="list-item small"><div class="dot"></div><span><strong>Use it for scaffolding, not shipping</strong> — it gets you to 60%, you own the rest</span></div>
   <div class="list-item small"><div class="dot"></div><span><strong>Own your git repo from day one</strong> — don't start in the platform and move later</span></div>

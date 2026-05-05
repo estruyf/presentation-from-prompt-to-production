@@ -10,8 +10,8 @@ transition: slideLeft
 
 <div class="divider"></div>
 
-<div class="flex-col flex-1 gap-md" style="justify-content: center;">
-  <p style="font-size: 1.1rem; max-width: 85%;">This is the moment where <span class="accent">16 years shows up.</span></p>
+<div class="flex-col flex-1 gap-md mt-4">
+  <p style="font-size: 1.1rem; max-width: 85%;">This is the moment where <span class="accent">N years shows up.</span></p>
   <p class="muted">A junior opens the file. A senior knows <strong style="color: var(--p2p-text);">which file to open.</strong></p>
   <div class="divider-full"></div>
   <div class="list">

@@ -10,7 +10,7 @@ transition: slideLeft
 
 <div class="divider"></div>
 
-<div class="list flex-1" style="justify-content: center;">
+<div class="list flex-1 mt-4">
   <div class="list-item"><span class="num">01</span><div><h3 class="small">Interprets the prompt</h3><p class="small muted">Decides stack, identifies core entities, plans component structure</p></div></div>
   <div class="list-item"><span class="num">02</span><div><h3 class="small">Boots WebContainers</h3><p class="small muted">Full Node.js environment in your browser tab — 200ms from click to running OS</p></div></div>
   <div class="list-item"><span class="num">03</span><div><h3 class="small">Scaffolds the project</h3><p class="small muted">Generates components, routing, data layer, and installs npm packages — all in the browser</p></div></div>

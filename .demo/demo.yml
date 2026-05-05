@@ -12,6 +12,10 @@ scenes:
     moves:
       - action: openSlide
         path: .demo/slides/01-title.md
+  - title: About Me
+    moves:
+      - action: openSlide
+        path: .demo/slides/01.02-about-me.md
   - title: The Brief
     moves:
       - action: openSlide
@@ -64,10 +68,14 @@ scenes:
     moves:
       - action: openSlide
         path: .demo/slides/18-think-before-prompt.md
+  - title: The distinction
+    moves:
+      - action: openSlide
+        path: .demo/slides/12.1-distinction.md
   - title: CLI vs Platforms
     moves:
       - action: openSlide
-        path: .demo/slides/12-cli-vs-platforms.md
+        path: .demo/slides/12.2-cli-vs-platforms.md
   - title: Why Bolt
     moves:
       - action: openSlide
@@ -96,51 +104,50 @@ scenes:
     moves:
       - action: openSlide
         path: .demo/slides/20-good-prompt.md
-  - title: The Skill
+  - title: Question - App type
     moves:
-      - action: openSlide
-        path: .demo/slides/21-the-skill.md
-  - title: Vote 1 — App Type
+      - action: showEngageTimePoll
+        pollId: pqu9qn
+  - title: Question - Who
     moves:
-      - action: openSlide
-        path: .demo/slides/22-vote-1-app-type.md
-  - title: Vote 2 — Who
+      - action: showEngageTimePoll
+        pollId: anywwr
+  - title: Question - Geature
     moves:
-      - action: openSlide
-        path: .demo/slides/23-vote-2-who.md
-  - title: Vote 3 — Feature
+      - action: showEngageTimePoll
+        pollId: 1sfbdm
+  - title: Question - Twist
     moves:
-      - action: openSlide
-        path: .demo/slides/24-vote-3-feature.md
-  - title: Vote 4 — Twist
-    moves:
-      - action: openSlide
-        path: .demo/slides/25-vote-4-twist.md
+      - action: showEngageTimePoll
+        pollId: vh03c7
   - title: Crafting the Prompt
     moves:
       - action: openSlide
         path: .demo/slides/26-crafting-prompt.md
   - title: Live Demo — bolt.new
     moves:
+      - action: copyToClipboard
+        content: |-
+          Build a {category} app for {audience}.
+          The one thing they need to do: {feature}.
+          Fun twist: {twist}.
+          Keep it simple: two screens max, no auth, no backend.
+          Use hardcoded sample data as JSON.
+          Tech: React + Vite + Tailwind.
       - action: openSlide
         path: .demo/slides/27-live-demo.md
-  - title: While It Runs
+  - title: Bolt.new
     moves:
-      - action: openSlide
-        path: .demo/slides/28-while-it-runs.md
-  - title: First Reaction
-    moves:
-      - action: openSlide
-        path: .demo/slides/29-first-reaction.md
+      - action: openWebsite
+        url: https://bolt.new/
+        openInVSCode: true
   - title: Iteration 1
     moves:
+      - action: copyToClipboard
+        content: Make sure the UI is mobile-friendly
       - action: openSlide
         path: .demo/slides/30-iteration-1.md
   - title: Iteration 2
-    moves:
-      - action: openSlide
-        path: .demo/slides/31-iteration-2.md
-  - title: Iteration 3
     moves:
       - action: openSlide
         path: .demo/slides/32-iteration-3.md
@@ -184,10 +191,6 @@ scenes:
     moves:
       - action: openSlide
         path: .demo/slides/42-production-gap.md
-  - title: Market Shifting
-    moves:
-      - action: openSlide
-        path: .demo/slides/43-market-shifting.md
   - title: Copilot Closing Gap
     moves:
       - action: openSlide

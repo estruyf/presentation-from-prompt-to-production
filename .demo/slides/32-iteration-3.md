@@ -4,7 +4,7 @@ theme: prompt-to-production
 transition: slideLeft
 ---
 
-<div class="label">Iteration 3 of 3</div>
+<div class="label">Iteration 2 of 2</div>
 
 # Into the code
 

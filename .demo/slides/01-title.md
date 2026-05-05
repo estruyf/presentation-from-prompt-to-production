@@ -5,6 +5,6 @@ transition: fadeIn
 title: "From idea to prompt to production-ready code?"
 subtitle: "How AI-powered platforms can help you build apps"
 author: "Elio Struyf · Microsoft MVP · GitHub Star · GDE"
-event: "Techorama · May 2026"
+event: "Techorama 2026"
 topLabel: "The Honest Take"
 ---

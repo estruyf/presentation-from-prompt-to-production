@@ -10,10 +10,10 @@ transition: slideLeft
 
 <div class="divider"></div>
 
-<div class="flex-col flex-1 gap-md" style="justify-content: center;">
+<div class="flex-col flex-1 gap-md mt-4">
   <div>
     <div class="label label-muted" style="margin-bottom: 0.3rem;">Prompt</div>
-    <div class="codeblock">"The layout breaks on mobile. Fix spacing on the dashboard so items stack correctly below 768px. Keep the desktop layout unchanged."</div>
+    <div class="codeblock">"The layout feels cramped and breaks on mobile devices. Fix the spacing on the main screen so items stack cleanly below 768px. Keep the desktop layout unchanged."</div>
   </div>
   <div>
     <div class="label label-muted" style="margin-bottom: 0.3rem;">What to narrate</div>

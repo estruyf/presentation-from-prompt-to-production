@@ -23,7 +23,7 @@ transition: slideLeft
   </div>
   <div class="card card-amber flex-col gap-sm">
     <h3 class="accent small">Replit</h3>
-    <p class="small muted">Dumped raw API response to screen. Needed one more prompt — but it was fixable.</p>
+    <p class="small muted">Dumped raw API response to screen. Needed one more prompt, but it was fixable.</p>
   </div>
 </div>
 

@@ -10,7 +10,7 @@ transition: slideLeft
 
 <div class="divider" style="background: var(--p2p-amber);"></div>
 
-<div class="flex-col flex-1 gap-md" style="justify-content: center; max-width: 90%;">
+<div class="flex-col flex-1 gap-md" style="max-width: 90%;">
   <p style="font-size: 1.05rem;">A few weeks ago, my app <strong>stopped publishing.</strong></p>
   <p class="muted">The deployment pipeline broke — on their side.</p>
   <div class="grid-4" style="flex: none;">

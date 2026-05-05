@@ -13,7 +13,8 @@ transition: slideLeft
 <div class="grid-3 flex-1">
   <div class="card flex-col gap-sm">
     <h3 class="accent">Bolt.new</h3>
-    <p class="small muted">Instant dev environments · Best for developers who want to start now</p>
+    <p class="small muted">Browser-Based Rapid Prototyping</p>
+    <p class="small muted">Best for testing ideas quickly</p>
     <div class="divider-full" style="margin: 0.25rem 0;"></div>
     <p class="small green">✓ Zero setup</p>
     <p class="small green">✓ Fast iteration</p>
@@ -22,7 +23,8 @@ transition: slideLeft
   </div>
   <div class="card flex-col gap-sm">
     <h3 class="accent">Lovable</h3>
-    <p class="small muted">AI product builder · Best for founders validating ideas</p>
+    <p class="small muted">Full-Stack MVPs Without Code</p>
+    <p class="small muted">Best for non-technical founders</p>
     <div class="divider-full" style="margin: 0.25rem 0;"></div>
     <p class="small green">✓ Prompt → working app</p>
     <p class="small green">✓ Strong UX defaults</p>
@@ -31,7 +33,8 @@ transition: slideLeft
   </div>
   <div class="card flex-col gap-sm">
     <h3 class="accent">Replit</h3>
-    <p class="small muted">Cloud IDE + AI assistant · Best for builders who want flexibility</p>
+    <p class="small muted">All-in-One Cloud Development</p>
+    <p class="small muted">Best for complete infrastructure</p>
     <div class="divider-full" style="margin: 0.25rem 0;"></div>
     <p class="small green">✓ Full dev environment</p>
     <p class="small green">✓ Multi-language</p>
