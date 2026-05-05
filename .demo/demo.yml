@@ -191,6 +191,18 @@ scenes:
     moves:
       - action: openSlide
         path: .demo/slides/35b-token-cost.md
+  - title: Managing Context
+    moves:
+      - action: openSlide
+        path: .demo/slides/35c-managing-context.md
+  - title: Reduce Context
+    moves:
+      - action: openSlide
+        path: .demo/slides/35c-reduce-context-section.md
+  - title: Practical Bolt Solutions
+    moves:
+      - action: openSlide
+        path: .demo/slides/35d-bolt-solutions.md
   - title: Fast Easy Fragile
     moves:
       - action: openSlide
