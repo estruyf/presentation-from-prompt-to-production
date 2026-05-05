@@ -183,6 +183,14 @@ scenes:
     moves:
       - action: openSlide
         path: .demo/slides/35-control-tradeoff.md
+  - title: Code Portability
+    moves:
+      - action: openSlide
+        path: .demo/slides/35a-code-portability.md
+  - title: Token Cost
+    moves:
+      - action: openSlide
+        path: .demo/slides/35b-token-cost.md
   - title: Fast Easy Fragile
     moves:
       - action: openSlide
