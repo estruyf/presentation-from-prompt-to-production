@@ -1,5 +1,4 @@
 ---
-customLayout: ".demo/layouts/content.html"
 theme: prompt-to-production
 transition: slideLeft
 ---
