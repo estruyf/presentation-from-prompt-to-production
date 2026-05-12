@@ -1,0 +1,28 @@
+title: Prep
+description: ''
+version: 3
+timer: 50
+engageTime:
+  sessionId: bt8rsn
+scenes:
+  - title: Pre-session setup check
+    description: Verify the environment before the session starts
+    moves:
+      - action: backupSettings
+      - action: macos.enableFocusMode
+        disabled: true
+      - action: macos.enableCaffeine
+        disabled: false
+      - action: macos.hideMenubar
+      - action: executeTerminalCommand
+        command: npm run serve
+        terminalId: serve
+        autoExecute: true
+      - action: setTheme
+        theme: Demo Time Dark
+      - action: executeVSCodeCommand
+        command: workbench.action.toggleFullScreen
+      - action: executeVSCodeCommand
+        command: workbench.action.activityBarLocation.hide
+      - action: executeVSCodeCommand
+        command: hideCustomTitleBarInFullScreen

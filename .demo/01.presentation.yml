@@ -11,6 +11,18 @@ scenes:
         topText: Let me get to know you
         logo: https://engagetime.live/engagetime.svg
         title: I got some questions for you
+  - title: Title
+    moves:
+      - action: openSlide
+        path: .demo/slides/02-title.md
+  - title: About Me
+    moves:
+      - action: openSlide
+        path: .demo/slides/03-about-me.md
+  - title: Outcome
+    moves:
+      - action: openSlide
+        path: .demo/slides/01-be-aware.md
   - title: Question - App type
     moves:
       - action: showEngageTimePoll
@@ -27,14 +39,21 @@ scenes:
     moves:
       - action: showEngageTimePoll
         pollId: vh03c7
-  - title: Title
+  - title: Copy to clipboard
     moves:
-      - action: openSlide
-        path: .demo/slides/02-title.md
-  - title: About Me
+      - action: copyToClipboard
+        content: |-
+          Build a {category} app for {audience}.
+          The one thing they need to do: {feature}.
+          Fun twist: {twist}.
+          Keep it simple: two screens max, no auth, no backend.
+          Use hardcoded sample data as JSON.
+          Tech: React + Vite + Tailwind.
+  - title: Bolt.new
     moves:
-      - action: openSlide
-        path: .demo/slides/03-about-me.md
+      - action: openWebsite
+        url: https://bolt.new/
+        openInVSCode: true
   - title: The Brief
     moves:
       - action: openSlide
@@ -129,14 +148,6 @@ scenes:
         path: .demo/slides/24-crafting-prompt.md
   - title: Live Demo — bolt.new
     moves:
-      - action: copyToClipboard
-        content: |-
-          Build a {category} app for {audience}.
-          The one thing they need to do: {feature}.
-          Fun twist: {twist}.
-          Keep it simple: two screens max, no auth, no backend.
-          Use hardcoded sample data as JSON.
-          Tech: React + Vite + Tailwind.
       - action: openSlide
         path: .demo/slides/25-live-demo.md
   - title: Bolt.new
