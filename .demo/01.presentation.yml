@@ -22,7 +22,7 @@ scenes:
   - title: Outcome
     moves:
       - action: openSlide
-        path: .demo/slides/01-be-aware.md
+        path: .demo/slides/01.01-outcome.md
   - title: Question - App type
     moves:
       - action: showEngageTimePoll
@@ -41,6 +41,8 @@ scenes:
         pollId: vh03c7
   - title: Copy to clipboard
     moves:
+      - action: openSlide
+        path: .demo/slides/01.02-close.md
       - action: copyToClipboard
         content: |-
           Build a {category} app for {audience}.

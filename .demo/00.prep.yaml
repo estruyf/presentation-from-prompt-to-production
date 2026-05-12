@@ -14,10 +14,6 @@ scenes:
       - action: macos.enableCaffeine
         disabled: false
       - action: macos.hideMenubar
-      - action: executeTerminalCommand
-        command: npm run serve
-        terminalId: serve
-        autoExecute: true
       - action: setTheme
         theme: Demo Time Dark
       - action: executeVSCodeCommand
