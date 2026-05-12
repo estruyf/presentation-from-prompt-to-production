@@ -1,0 +1,253 @@
+title: From idea to prompt to production-ready code? How AI-powered platforms can help you building apps.
+description: Live demo session on using AI-powered app platforms from prompt to production-ready outcomes.
+version: 3
+engageTime:
+  sessionId: 54d62i
+scenes:
+  - title: Poll
+    moves:
+      - action: showQR
+        url: https://engagetime.live/session/54d62i
+        topText: Let me get to know you
+        logo: https://engagetime.live/engagetime.svg
+        title: I got some questions for you
+  - title: Question - App type
+    moves:
+      - action: showEngageTimePoll
+        pollId: pqu9qn
+  - title: Question - Who
+    moves:
+      - action: showEngageTimePoll
+        pollId: anywwr
+  - title: Question - Geature
+    moves:
+      - action: showEngageTimePoll
+        pollId: 1sfbdm
+  - title: Question - Twist
+    moves:
+      - action: showEngageTimePoll
+        pollId: vh03c7
+  - title: Title
+    moves:
+      - action: openSlide
+        path: .demo/slides/02-title.md
+  - title: About Me
+    moves:
+      - action: openSlide
+        path: .demo/slides/03-about-me.md
+  - title: The Brief
+    moves:
+      - action: openSlide
+        path: .demo/slides/04-brief.md
+  - title: Question 1
+    moves:
+      - action: showEngageTimePoll
+        pollId: m0ytpe
+  - title: Question 2
+    moves:
+      - action: showEngageTimePoll
+        pollId: m23vvk
+  - title: Context
+    moves:
+      - action: openSlide
+        path: .demo/slides/05-context.md
+  - title: The Old Way
+    moves:
+      - action: openSlide
+        path: .demo/slides/06-old-way.md
+  - title: The New Promise
+    moves:
+      - action: openSlide
+        path: .demo/slides/07-new-promise.md
+  - title: Who Is Building
+    moves:
+      - action: openSlide
+        path: .demo/slides/08-who-is-building.md
+  - title: Market Reality
+    moves:
+      - action: openSlide
+        path: .demo/slides/09-market-reality.md
+  - title: The Platforms
+    moves:
+      - action: openSlide
+        path: .demo/slides/10-platforms.md
+  - title: Quote
+    moves:
+      - action: openSlide
+        path: .demo/slides/11-quote.md
+  - title: Think First
+    moves:
+      - action: openSlide
+        path: .demo/slides/12-think-first.md
+  - title: Do not just clone
+    moves:
+      - action: openSlide
+        path: .demo/slides/13-replit.md
+  - title: Think Before Prompt
+    moves:
+      - action: openSlide
+        path: .demo/slides/14-think-before-prompt.md
+  - title: The distinction
+    moves:
+      - action: openSlide
+        path: .demo/slides/15-distinction.md
+  - title: CLI vs Platforms
+    moves:
+      - action: openSlide
+        path: .demo/slides/16-cli-vs-platforms.md
+  - title: Why Bolt
+    moves:
+      - action: openSlide
+        path: .demo/slides/17-why-bolt.md
+  - title: Experience Paradox
+    moves:
+      - action: openSlide
+        path: .demo/slides/18-experience-paradox.md
+  - title: True Story
+    moves:
+      - action: openSlide
+        path: .demo/slides/19-true-story.md
+  - title: The Tension
+    moves:
+      - action: openSlide
+        path: .demo/slides/20-the-tension.md
+  - title: Act 2
+    moves:
+      - action: openSlide
+        path: .demo/slides/21-act-2.md
+  - title: Bad Prompt
+    moves:
+      - action: openSlide
+        path: .demo/slides/22-bad-prompt.md
+  - title: Good Prompt
+    moves:
+      - action: openSlide
+        path: .demo/slides/23-good-prompt.md
+  - title: Crafting the Prompt
+    moves:
+      - action: openSlide
+        path: .demo/slides/24-crafting-prompt.md
+  - title: Live Demo — bolt.new
+    moves:
+      - action: copyToClipboard
+        content: |-
+          Build a {category} app for {audience}.
+          The one thing they need to do: {feature}.
+          Fun twist: {twist}.
+          Keep it simple: two screens max, no auth, no backend.
+          Use hardcoded sample data as JSON.
+          Tech: React + Vite + Tailwind.
+      - action: openSlide
+        path: .demo/slides/25-live-demo.md
+  - title: Bolt.new
+    moves:
+      - action: openWebsite
+        url: https://bolt.new/
+        openInVSCode: true
+  - title: Iteration 1
+    moves:
+      - action: copyToClipboard
+        content: Make sure the UI is mobile-friendly
+      - action: openSlide
+        path: .demo/slides/26-iteration-1.md
+  - title: Iteration 2
+    moves:
+      - action: openSlide
+        path: .demo/slides/27-iteration-3.md
+  - title: Experience
+    moves:
+      - action: openSlide
+        path: .demo/slides/28-experience.md
+  - title: Deploy
+    moves:
+      - action: openSlide
+        path: .demo/slides/29-deploy.md
+  - title: The Wow Moment
+    moves:
+      - action: openSlide
+        path: .demo/slides/30-wow-moment.md
+  - title: Act 3
+    moves:
+      - action: openSlide
+        path: .demo/slides/31-act-3.md
+  - title: The Good
+    moves:
+      - action: openSlide
+        path: .demo/slides/32-the-good.md
+  - title: Hard Truths
+    moves:
+      - action: openSlide
+        path: .demo/slides/33-hard-truths.md
+  - title: Real Data Problem
+    moves:
+      - action: openSlide
+        path: .demo/slides/34-real-data-problem.md
+  - title: Control Trade-off
+    moves:
+      - action: openSlide
+        path: .demo/slides/35-control-tradeoff.md
+  - title: Code Portability
+    moves:
+      - action: openSlide
+        path: .demo/slides/35a-code-portability.md
+  - title: Token Cost
+    moves:
+      - action: openSlide
+        path: .demo/slides/35b-token-cost.md
+  - title: Managing Context
+    moves:
+      - action: openSlide
+        path: .demo/slides/35c-managing-context.md
+  - title: Reduce Context
+    moves:
+      - action: openSlide
+        path: .demo/slides/35c-reduce-context-section.md
+  - title: Practical Bolt Solutions
+    moves:
+      - action: openSlide
+        path: .demo/slides/35d-bolt-solutions.md
+  - title: Fast Easy Fragile
+    moves:
+      - action: openSlide
+        path: .demo/slides/36-fast-easy-fragile.md
+  - title: Production Gap
+    moves:
+      - action: openSlide
+        path: .demo/slides/37-production-gap.md
+  - title: Copilot Closing Gap
+    moves:
+      - action: openSlide
+        path: .demo/slides/38-copilot-gap.md
+  - title: Honest Position
+    moves:
+      - action: openSlide
+        path: .demo/slides/39-honest-position.md
+  - title: The Answer
+    moves:
+      - action: openSlide
+        path: .demo/slides/40-the-answer.md
+  - title: Takeaways
+    moves:
+      - action: openSlide
+        path: .demo/slides/41-takeaways.md
+  - title: Questions / End
+    moves:
+      - action: openSlide
+        path: .demo/slides/42-end.md
+  - id: scene-mp18ha61-ihgo
+    title: Repository QR
+    moves:
+      - action: showQR
+        url: https://github.com/estruyf/presentation-from-prompt-to-production
+        topText: Try it out yourself
+        title: Link to the slides and demos
+  - id: demo-mowwslyo-59wj
+    title: Demo Time QR
+    moves:
+      - action: showQR
+        url: https://demotime.show
+        label: Get started with Demo Time
+        logo: https://demotime.show/_astro/demotime-bg.Cj2R9BCN_Z1HYzg2.svg
+        title: Get started with Demo Time
+        topText: Scan to open
+        description: Never stress about live coding again. Present straight from Visual Studio Code.
