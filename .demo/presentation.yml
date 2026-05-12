@@ -1,13 +1,32 @@
-title: From Prompt to Production
-description: Techorama May 2025 - Elio Struyf
+title: From idea to prompt to production-ready code? How AI-powered platforms can help you building apps.
+description: Live demo session on using AI-powered app platforms from prompt to production-ready outcomes.
 version: 3
 engageTime:
   sessionId: 54d62i
 scenes:
   - title: Poll
     moves:
-      - action: openSlide
-        path: .demo/slides/01-poll.md
+      - action: showQR
+        url: https://engagetime.live/session/54d62i
+        topText: Let me get to know you
+        logo: https://engagetime.live/engagetime.svg
+        title: I got some questions for you
+  - title: Question - App type
+    moves:
+      - action: showEngageTimePoll
+        pollId: pqu9qn
+  - title: Question - Who
+    moves:
+      - action: showEngageTimePoll
+        pollId: anywwr
+  - title: Question - Geature
+    moves:
+      - action: showEngageTimePoll
+        pollId: 1sfbdm
+  - title: Question - Twist
+    moves:
+      - action: showEngageTimePoll
+        pollId: vh03c7
   - title: Title
     moves:
       - action: openSlide
@@ -104,22 +123,6 @@ scenes:
     moves:
       - action: openSlide
         path: .demo/slides/23-good-prompt.md
-  - title: Question - App type
-    moves:
-      - action: showEngageTimePoll
-        pollId: pqu9qn
-  - title: Question - Who
-    moves:
-      - action: showEngageTimePoll
-        pollId: anywwr
-  - title: Question - Geature
-    moves:
-      - action: showEngageTimePoll
-        pollId: 1sfbdm
-  - title: Question - Twist
-    moves:
-      - action: showEngageTimePoll
-        pollId: vh03c7
   - title: Crafting the Prompt
     moves:
       - action: openSlide
@@ -231,3 +234,20 @@ scenes:
     moves:
       - action: openSlide
         path: .demo/slides/42-end.md
+  - id: scene-mp18ha61-ihgo
+    title: Repository QR
+    moves:
+      - action: showQR
+        url: https://github.com/estruyf/presentation-from-prompt-to-production
+        topText: Try it out yourself
+        title: Link to the slides and demos
+  - id: demo-mowwslyo-59wj
+    title: Demo Time QR
+    moves:
+      - action: showQR
+        url: https://demotime.show
+        label: Get started with Demo Time
+        logo: https://demotime.show/_astro/demotime-bg.Cj2R9BCN_Z1HYzg2.svg
+        title: Get started with Demo Time
+        topText: Scan to open
+        description: Never stress about live coding again. Present straight from Visual Studio Code.
